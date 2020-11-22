@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+ background-color: white;
+}
+h1{
+    color: black;
+    
+}
+h1{
+  background-color: #0026ff;
+} 
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 25px;
+  border: 2px orange solid;
+}
+h1{
+  font-style: italic;
+  margin: 65px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkblue;
+  padding: 20px 10px;
+  height: 20px;
+ 
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  position: relative;
+  font-size: 15px;
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  padding: 17px 0;
+  transition: 0,5;
+  transition:  0,5s;
+}
+h1{
+  text-align: center;
+  margin: 60px;
+}
+nav ul li a:hover {
+  color: aqua;
+}
+.gambar-tengah{
+  background-image: url("https://alamatjalan.com/wp-content/uploads/2018/12/Madeline-Baby-Shop-Bandung-Alamat-dan-Nomor-Teleponnya-min.jpg");
+  width: 700px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: -webkit-center;
+  margin: 100px 0 0 350px
+}
+table, th td{
+  border: 3px blue;
+}
+
+table{
+  border-collapse: collapse;
+}
+table,th,td{
+  border: 2px solid blue;
+  padding:0 5px;
+  text-align: center;
+  color: #52616b;
+}
+footer {
+  padding: 21px 0;
+  background-color: #112d41;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+footer p{
+  font-size: 16px;
+  color: yellow;
+  font-family: "Poppins-Medium";
+  float: left;
+}
+.gambar-tengah{
+  float: none;
+}
